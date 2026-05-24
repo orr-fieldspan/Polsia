@@ -6,18 +6,18 @@ const founders = [
     pedigree: "Ex-SolarEdge",
     aside: "Volunteers with the עיר-מדינה (Ir-Medina) civic initiative.",
     linkedin: "https://www.linkedin.com/in/alonbarel",
-    initials: "AB",
+    photo: "/founders/alon.png",
     tone: "bg-coral/20",
     ring: "ring-coral/40",
   },
   {
     name: "Orr Barkat",
     role: "Co-founder & CTO",
-    bio: "Led AI transformation strategy, programs, and engineering at Google. Spent the last two years consulting on AI transformation for enterprises and public-sector clients.",
+    bio: "Spent 12 months on AI transformation at Google. The last 6 months advising on AI transformation externally.",
     pedigree: "Ex-Google · AI transformation",
     aside: null,
     linkedin: "https://www.linkedin.com/in/orr-barkat-0a7928a2",
-    initials: "OB",
+    photo: "/founders/orr.png",
     tone: "bg-violet/20",
     ring: "ring-violet/40",
   },
@@ -49,11 +49,14 @@ export function Founders() {
               className={`rounded-3xl ${f.tone} border hairline p-7 lg:p-8 sticker flex flex-col`}
             >
               <div className="flex items-center gap-4 mb-6">
-                <div
-                  className={`h-14 w-14 rounded-full bg-card flex items-center justify-center font-serif text-[18px] ring-2 ${f.ring}`}
-                >
-                  {f.initials}
-                </div>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={f.photo}
+                  alt={`Portrait of ${f.name}`}
+                  width={56}
+                  height={56}
+                  className={`h-14 w-14 rounded-full object-cover bg-card ring-2 ${f.ring}`}
+                />
                 <div>
                   <div className="font-serif text-[22px] leading-tight tracking-tight">
                     {f.name}
