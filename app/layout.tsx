@@ -19,20 +19,22 @@ const newsreader = Newsreader({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://embedded.fieldspan.ai"),
-  title: "Fieldspan Embedded — Senior AI teams, embedded inside public institutions",
+  title: "Fieldspan Embedded — Modernize the state. From inside.",
   description:
-    "A small services firm. We send senior operators and engineers to work inside ministries, build the AI capability they need, and leave it owned by their teams.",
+    "Your AI transformation team, embedded inside the ministry. Senior squads. Paid against what ships. Code in your repo from day one.",
   openGraph: {
-    title: "Fieldspan Embedded",
-    description: "Senior AI teams, embedded inside the institutions that run a nation.",
+    title: "Fieldspan Embedded — Modernize the state. From inside.",
+    description:
+      "Your AI transformation team, embedded inside the ministry. Senior squads. Paid against what ships. Code in your repo from day one.",
     url: "https://embedded.fieldspan.ai",
     siteName: "Fieldspan Embedded",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fieldspan Embedded",
-    description: "Senior AI teams, embedded inside the institutions that run a nation.",
+    title: "Fieldspan Embedded — Modernize the state. From inside.",
+    description:
+      "Your AI transformation team, embedded inside the ministry. Senior squads. Paid against what ships. Code in your repo from day one.",
   },
 };
 
