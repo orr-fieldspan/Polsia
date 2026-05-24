@@ -1,25 +1,25 @@
 const services = [
   {
     n: "01",
-    label: "Transformation",
-    title: "Scoped engagements that ship.",
-    body: "We scope a high-leverage AI workflow jointly with you, then a senior squad sits inside the ministry and builds it. Strategy and implementation in the same room — no separate strategy phase, no diagnostic deck without code shipped at the end of it. Sized in time and cost to the actual scope.",
+    label: "Transformation partnership",
+    title: "Senior partners on your hardest workflow.",
+    body: "A scoped engagement around one high-leverage AI workflow. You bring in senior partners with frontier-tech transformation experience — they sit inside the ministry and ship code with your team, not a deck at them. Sized in time and cost to the actual scope.",
     bullets: [
-      "Joint scoping with the people who own the workflow",
-      "Senior squad on-site, inside your perimeter",
+      "Senior partners on the ground, not consultants on a tour",
       "Strategy paired with implementation, every cycle",
+      "Sized to the workflow, not to a price book",
     ],
     tone: "bg-coral/15",
     dot: "bg-coral",
   },
   {
     n: "02",
-    label: "Engineering",
-    title: "Ongoing senior squads.",
-    body: "A small senior team builds alongside yours on a monthly subscription. You pay for output — features shipped into production — not hours logged. The squad sticks around as long as it is compounding for you, and it stops when it isn't. You decide that, every cycle.",
+    label: "Engineering squad",
+    title: "Hyper-scale engineering, alongside your team.",
+    body: "An ongoing senior engineering team alongside yours, month after month. Production discipline from Google-scale infrastructure paired with your engineers, transferring the practice as it ships. Paid against output, not against time on the clock.",
     bullets: [
+      "Engineering practice from hyper-scale environments",
       "Monthly subscription priced to output",
-      "Paid for what ships, not for time on the clock",
       "Continues by your choice, ends by your choice",
     ],
     tone: "bg-violet/15",
@@ -37,13 +37,14 @@ export function Pillars() {
               How we engage
             </div>
             <h2 className="font-serif text-[34px] lg:text-[44px] leading-[1.05] tracking-tightest max-w-2xl">
-              Two services. Built inside the institution.{" "}
-              <span className="italic coral-text">Compounding every cycle.</span>
+              Top-tier transformation know-how, brought inside the institution.{" "}
+              <span className="italic coral-text">In two shapes.</span>
             </h2>
           </div>
           <p className="max-w-xs text-[14px] text-muted leading-relaxed">
-            One model, two shapes: a scoped transformation engagement, or a
-            standing senior squad. Both are paid against what ships.
+            One value, two delivery shapes: a scoped transformation
+            partnership, or a standing senior engineering squad. Both put
+            the expertise inside your perimeter.
           </p>
         </div>
 

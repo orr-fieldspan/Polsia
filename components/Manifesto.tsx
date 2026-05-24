@@ -17,8 +17,9 @@ export function Manifesto() {
         <p className="mt-8 max-w-2xl text-[16px] leading-[1.7] text-muted">
           The first wave of public-sector AI was procured through licenses and
           portals. Most of it never landed, because the hard part was never
-          the model. The hard part is the work done inside the building, with
-          the people who already run the workflow. That is the work we do.
+          the model. The hard part is the work done inside the building, by
+          people who have already done this work at frontier-tech scale. That
+          is who we bring inside.
         </p>
 
         <p className="mt-6 max-w-2xl text-[13.5px] leading-relaxed text-ink/70">

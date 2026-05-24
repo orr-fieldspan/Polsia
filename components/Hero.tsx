@@ -12,7 +12,7 @@ export function Hero() {
                 <span className="relative h-2 w-2 rounded-full bg-coral" />
               </span>
               <span className="text-[12px] uppercase tracking-[0.2em] text-muted">
-                A services firm — not a product
+                Top-tier transformation, embedded
               </span>
             </div>
 
@@ -22,9 +22,11 @@ export function Hero() {
             </h1>
 
             <p className="mt-7 max-w-xl text-[16.5px] leading-[1.65] text-muted">
-              Your AI transformation team, embedded inside the ministry.
-              Senior squads. Paid against what ships. Code in your repo from
-              day one.
+              Top-tier AI transformation know-how — the kind a ministry
+              cannot hire onto its own payroll — brought inside your offices
+              as a partner. Senior practitioners from frontier-tech and
+              hyper-growth operations, paired with your team, shipping
+              cycle after cycle.
             </p>
 
             <div className="mt-9 flex flex-wrap items-center gap-3">
