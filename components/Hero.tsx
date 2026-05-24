@@ -16,17 +16,14 @@ export function Hero() {
               </span>
             </div>
 
-            <h1 className="font-serif tracking-tightest text-[44px] sm:text-[58px] lg:text-[76px] leading-[0.98]">
-              Modernize the state.{" "}
-              <span className="italic coral-text squiggle">From inside.</span>
+            <h1 className="font-serif tracking-tightest text-[56px] sm:text-[72px] lg:text-[96px] leading-[0.95]">
+              Modernize the state.
             </h1>
 
-            <p className="mt-7 max-w-xl text-[16.5px] leading-[1.65] text-muted">
-              Top-tier AI transformation know-how — the kind a ministry
-              cannot hire onto its own payroll — brought inside your offices
-              as a partner. Senior practitioners from frontier-tech and
-              hyper-growth operations, paired with your team, shipping
-              cycle after cycle.
+            <p className="mt-8 max-w-xl text-[17px] leading-[1.65] text-muted">
+              Your transformation partner from inside the ministry. We bring
+              senior AI know-how into your perimeter — and ship at operating
+              speed.
             </p>
 
             <div className="mt-9 flex flex-wrap items-center gap-3">
