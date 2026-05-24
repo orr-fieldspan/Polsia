@@ -23,8 +23,9 @@ export function Hero() {
           The transformation is signed for in procurement, but it has to be
           built inside the institution. That gap is where most public-sector
           AI quietly fails. Fieldspan Embedded sends a small senior team
-          inside the ministry to close it — and leaves the capability owned
-          by your people.
+          inside the ministry to close it — building the capability with
+          your people, and leaving them operating at a higher level than
+          they started.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center gap-3">

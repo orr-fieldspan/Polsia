@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     q: "What happens after the engagement ends?",
-    a: "The capability keeps running without us. Your team holds everything and can operate, extend, and audit it on their own.",
+    a: "The capability keeps running without us — and so does your team. They hold the code, weights, and runbooks, and they have spent the engagement learning to operate, extend, and audit the system on their own. You end up with both a working capability and people who are more capable than they were.",
   },
 ];
 
