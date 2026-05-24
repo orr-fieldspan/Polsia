@@ -2,32 +2,32 @@ const capabilities = [
   {
     title: "Budget & fiscal analysis",
     body:
-      "Agents that ingest line-item budgets, ministerial submissions, and historical execution data, then produce variance analyses, scenario models, and briefing memos at the cadence of the budget cycle.",
+      "Embedded engineers and economists work with budget directorates to build internal tools that turn line-item budgets, ministerial submissions, and execution data into variance analyses, scenario models, and briefing memos at the cadence the cycle actually demands.",
   },
   {
     title: "Regulatory & legislative drafting",
     body:
-      "Drafting and red-lining support for primary and secondary legislation, with citation chains back to source statutes, prior memoranda, and parliamentary record.",
+      "We sit with legal and policy teams to build drafting and red-line tools that produce primary and secondary legislation with citation chains back to source statutes, prior memoranda, and parliamentary record — owned by the legal department, not by us.",
   },
   {
     title: "Procurement triage",
     body:
-      "Automated review of tender responses against evaluation criteria, conflict-of-interest checks, and historical award patterns — with every recommendation reviewable line by line.",
+      "Inside the tender unit, we build the review pipeline that screens tender responses against evaluation criteria, surfaces conflict-of-interest signals, and benchmarks against historical award patterns. Every recommendation is reviewable line by line by your evaluators.",
   },
   {
     title: "Inter-ministerial coordination",
     body:
-      "A shared agent layer that turns the email-and-PDF substrate between ministries into a structured, searchable, auditable flow without forcing a single IT migration.",
+      "An engagement that crosses ministries: we build the shared agent layer that turns the email-and-PDF substrate between ministries into a structured, searchable, auditable flow — without forcing a single IT migration on any of them.",
   },
   {
     title: "Citizen correspondence",
     body:
-      "First-draft responses to citizen inquiries grounded in current policy, routed for human approval, with full provenance and a translation layer for Hebrew, Arabic, and English.",
+      "We work with the unit that handles citizen mail to build first-draft response systems grounded in current policy, routed for human approval, with full provenance — and a translation layer for Hebrew, Arabic, and English written for the actual register of public correspondence.",
   },
   {
     title: "Internal knowledge retrieval",
     body:
-      "A retrieval layer over decades of internal memoranda, regulations, and meeting minutes — searchable in natural language, with access controls enforced at the document level.",
+      "Decades of internal memoranda, regulations, and meeting minutes — built into a retrieval layer your staff can query in natural language, with access controls enforced at the document level by your existing identity provider.",
   },
 ];
 
@@ -38,15 +38,15 @@ export function Capabilities() {
         <div className="flex items-end justify-between flex-wrap gap-6 mb-14">
           <div className="max-w-2xl">
             <div className="text-[12.5px] uppercase tracking-[0.22em] text-muted mb-4">
-              Where it goes to work
+              Where the team goes to work
             </div>
             <h2 className="font-serif text-[34px] lg:text-[48px] leading-[1.05] tracking-tightest gradient-text">
-              Six places the platform pays for itself in a fiscal quarter.
+              Six places a twelve-week embedded engagement pays for itself.
             </h2>
           </div>
           <p className="max-w-sm text-[14.5px] text-muted leading-relaxed">
-            Each deployment begins with one workflow, one owner, and a measured
-            baseline. Capability compounds from there.
+            Each engagement begins with one workflow, one owner, and a measured
+            baseline. The team is sized to the scope, not to a price book.
           </p>
         </div>
 

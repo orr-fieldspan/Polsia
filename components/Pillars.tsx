@@ -1,41 +1,42 @@
 const pillars = [
   {
-    eyebrow: "01 — Strategy",
-    title: "Map the institution before we build inside it.",
+    eyebrow: "01 — Embed",
+    title: "A senior team sits inside your institution.",
     body:
-      "We start by mapping the workflows, data sources, decision rights, and audit obligations of the institution. The deliverable is a deployment plan a CIO can defend in front of a regulator — not a slide deck.",
-    bullets: ["Workflow & decision-rights audit", "Data-classification mapping", "Regulatory & audit alignment"],
+      "Three to five operators and engineers — the same people who scoped the engagement — work from inside your offices, on your network, under your security policy. No outsourced backbench. No staff augmentation. The people you meet are the people who do the work.",
+    bullets: ["Senior practitioners only", "Working from inside the perimeter", "Cleared, badged, and on-site"],
   },
   {
-    eyebrow: "02 — Deployment",
-    title: "Install AI inside the perimeter, not next to it.",
+    eyebrow: "02 — Build",
+    title: "We build the workflow with your people, not for them.",
     body:
-      "Models, orchestration, vector stores, and observability all deploy inside the customer's environment — on-premises, in a sovereign cloud, or in an air-gapped enclave. No outbound calls. No vendor lock-in on weights.",
-    bullets: ["On-prem / sovereign cloud / air-gapped", "Open-weight models you can inspect", "Identity, logging, and SIEM integration"],
+      "Every engagement pairs the Fieldspan team with a small group of your analysts, engineers, and policy owners. They learn what we know about deploying AI inside government; we learn what they know about the institution. The capability that ships is built jointly, owned jointly, and runs without us.",
+    bullets: ["Paired with your internal team", "Built on infrastructure you control", "Operating practice transferred, not licensed"],
   },
   {
-    eyebrow: "03 — Operations",
-    title: "Run agents the way you run a department.",
+    eyebrow: "03 — Hand off",
+    title: "We finish the engagement and we leave.",
     body:
-      "Every agent has a defined remit, an owner, an SLA, and a paper trail. Outputs are reviewable, reversible, and tied back to the source. The platform behaves like staff — not like a chatbot bolted onto a workflow.",
-    bullets: ["Role-scoped agents with named owners", "Full provenance on every output", "Human-in-the-loop by default"],
+      "At the end of the engagement, the code, the models, the documentation, and the operating runbook live with your team. Your people can extend the system, audit it, and run it without us. If you want to keep working together on the next workflow, we will. If you want us gone, you are not stuck.",
+    bullets: ["Full source and weights transferred", "Runbooks and on-call written for your team", "Reversible — no captive dependencies"],
   },
 ];
 
 export function Pillars() {
   return (
-    <section id="platform" className="relative border-b hairline">
+    <section id="engagement" className="relative border-b hairline">
       <div className="mx-auto max-w-page px-6 lg:px-10 py-24 lg:py-32">
         <div className="flex items-end justify-between flex-wrap gap-6 mb-16">
           <div className="max-w-2xl">
-            <div className="text-[12.5px] uppercase tracking-[0.22em] text-muted mb-4">The Platform</div>
+            <div className="text-[12.5px] uppercase tracking-[0.22em] text-muted mb-4">How we engage</div>
             <h2 className="font-serif text-[36px] lg:text-[52px] leading-[1.02] tracking-tightest gradient-text">
-              Three disciplines, one deployed system.
+              Three phases. One small team. No software to license.
             </h2>
           </div>
           <p className="max-w-md text-[15px] text-muted leading-relaxed">
-            Fieldspan Embedded is not a model and not a chatbot. It is the system that
-            turns a model into operational capacity for a public institution.
+            Fieldspan Embedded is a services engagement, not a SaaS contract.
+            The deliverable is operating capability inside your institution —
+            and a team of your own people who can run it.
           </p>
         </div>
 
@@ -60,13 +61,6 @@ export function Pillars() {
                   </li>
                 ))}
               </ul>
-
-              <div className="mt-8 flex items-center gap-2 text-[13px] text-accent/90">
-                <span>Read the brief</span>
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                  <path d="M2.5 6h7M6.5 3l3 3-3 3" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </div>
 
               <div
                 className="pointer-events-none absolute inset-x-0 top-0 h-px"

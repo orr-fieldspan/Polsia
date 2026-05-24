@@ -1,32 +1,32 @@
-const logos = [
-  "Ministry-grade",
+const standards = [
+  "Cleared personnel",
   "ISO 27001 aligned",
-  "SOC 2 process",
   "NIST AI RMF",
   "EU AI Act ready",
   "Air-gap capable",
-  "FIPS-validated crypto",
+  "Customer-controlled infrastructure",
   "Hebrew · Arabic · English",
+  "Fixed-fee engagements",
 ];
 
-const testimonials = [
+const outcomes = [
   {
-    metric: "73%",
+    metric: "12 wk",
     body:
-      "Reduction in cycle time on first-draft analytical memos in a six-week pilot inside a national-level financial regulator.",
-    attribution: "Pilot result · regulated public institution",
+      "Typical engagement length, from kick-off to a workflow in production inside the customer's perimeter — with the customer's own team running it day-to-day.",
+    attribution: "Standard engagement shape",
   },
   {
     metric: "0",
     body:
-      "Bytes of operational data leaving the customer perimeter in a twelve-month deployment audited by an independent third party.",
-    attribution: "Independent deployment audit · 2025",
+      "Long-term vendor dependencies at hand-off. All code, configuration, and model weights are transferred to the customer; the engagement ends cleanly or extends by choice.",
+    attribution: "Hand-off principle",
   },
   {
-    metric: "4×",
+    metric: "1:1",
     body:
-      "Increase in the number of inter-ministerial requests resolved within one business day after the coordination agent was deployed.",
-    attribution: "Pilot result · central-government coordination office",
+      "Every Fieldspan engineer is paired with an engineer from the customer's team for the duration of the engagement. Knowledge transfer is the deliverable, not a side effect.",
+    attribution: "Engagement model",
   },
 ];
 
@@ -35,15 +35,15 @@ export function Proof() {
     <section className="relative border-b hairline">
       <div className="mx-auto max-w-page px-6 lg:px-10 py-24 lg:py-32">
         <div className="text-[12.5px] uppercase tracking-[0.22em] text-muted mb-4">
-          What it has to clear
+          What an engagement looks like
         </div>
         <h2 className="font-serif text-[32px] lg:text-[44px] leading-[1.05] tracking-tightest gradient-text max-w-3xl">
-          Built to the standards a treasury would set for itself.
+          A short, senior engagement — built to a public-institution standard.
         </h2>
 
         <div className="mt-12 relative overflow-hidden border-y hairline -mx-6 lg:-mx-10">
           <div className="marquee flex gap-12 py-6 whitespace-nowrap">
-            {[...logos, ...logos].map((l, i) => (
+            {[...standards, ...standards].map((l, i) => (
               <span
                 key={i}
                 className="font-mono text-[12.5px] uppercase tracking-[0.18em] text-muted/80"
@@ -58,7 +58,7 @@ export function Proof() {
         </div>
 
         <div className="mt-20 grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {testimonials.map((t) => (
+          {outcomes.map((t) => (
             <figure
               key={t.attribution}
               className="rounded-2xl border hairline bg-elevated/40 p-7 flex flex-col"

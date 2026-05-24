@@ -1,27 +1,27 @@
 const faqs = [
   {
-    q: "Who is Fieldspan Embedded for?",
-    a: "CIOs and chief economists at ministries, treasuries, regulators, and central-government coordination offices — institutions that have hard data-residency obligations and a workload that is currently bottlenecked on senior analyst time.",
+    q: "What kind of company is Fieldspan Embedded?",
+    a: "A services firm. We do not sell a product. We staff small, senior engagements inside public institutions — ministries, treasuries, regulators, central-government coordination offices — and build AI capability with their teams, on their infrastructure.",
   },
   {
-    q: "How is this different from buying a license to a frontier model?",
-    a: "A model license gives you a capability through a vendor's API. Fieldspan Embedded gives you the operating system that turns a model — including open-weight models you already host — into staffed workflows with named owners, audit trails, and SLAs. The model is interchangeable; the system around it is the product.",
+    q: "What does a typical engagement look like?",
+    a: "Three to five senior Fieldspan people work on-site at the customer for roughly twelve weeks. They scope one workflow with the customer, pair with the customer's own engineers and analysts, build the capability inside the customer's environment, and transfer it at the end. There is no platform license. There is no per-seat fee.",
   },
   {
-    q: "Where does the data live?",
-    a: "Wherever you say. The reference deployment is on-premises in the customer's data center; alternative deployments run in a sovereign cloud or in an air-gapped enclave. No component of the platform requires an outbound connection to a Fieldspan-controlled service to operate.",
+    q: "How is this different from a consulting firm or systems integrator?",
+    a: "Three differences. First, the people on the engagement are senior practitioners — the founders are on the engagement, not selling the engagement. Second, we ship working systems, not slide decks. Third, the IP belongs to the customer the moment it is written: source, weights, runbooks. We are not building a product through your project.",
   },
   {
-    q: "What does a first engagement look like?",
-    a: "A four-week scoping engagement to pick one workflow, one owner, and a measured baseline. A twelve-week pilot to deploy the platform inside the perimeter and put the first agent into production against that baseline. A decision point at the end of the pilot — by then the platform has either paid for itself in cycle time or it has not.",
+    q: "Where do your people and our data actually sit?",
+    a: "Our people sit at desks inside your offices, on devices and networks you control, under your security policy. Your data does not leave your perimeter; it is not used to train anything for anyone else; it is not visible to Fieldspan after hand-off.",
   },
   {
-    q: "How is it priced?",
-    a: "An annual platform fee, scoped to the number of workflows in production and the size of the deployment. No per-token billing, no per-seat seat-by-seat creep, no surprises from a foreign-currency invoice in the middle of a fiscal year.",
+    q: "How is the engagement priced?",
+    a: "Fixed fee per engagement, scoped to one workflow and one outcome. No per-token billing, no per-seat creep, no surprise foreign-currency invoices mid-fiscal-year. If you want a second workflow, that is a second engagement — also fixed-fee.",
   },
   {
-    q: "What happens if Fieldspan disappears?",
-    a: "The deployment continues to function. Source code for the deployed components is held in escrow, the model weights are already on your hardware, and the integrations are documented to a standard that an in-house team can maintain. Sovereignty includes sovereignty from us.",
+    q: "What happens after the engagement ends?",
+    a: "The capability runs without us. Your team holds the source, the weights, the runbooks, and the operating practice. You can extend it, audit it, and operate it without a continued contract. If you want us back for the next workflow, that is a new engagement on a new statement of work.",
   },
 ];
 

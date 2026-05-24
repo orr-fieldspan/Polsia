@@ -11,44 +11,46 @@ export function Manifesto() {
 
         <h2 className="font-serif text-[34px] sm:text-[48px] lg:text-[68px] leading-[1.05] tracking-tightest max-w-5xl">
           <span className="gradient-text">
-            The first generation of public-sector AI was procured. The next
-            generation will be{" "}
+            You cannot buy a transformation. You have to{" "}
           </span>
-          <span className="accent-gradient italic font-light">embedded.</span>
+          <span className="accent-gradient italic font-light">staff one.</span>
         </h2>
 
         <div className="mt-14 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 max-w-5xl">
           <p className="text-[16px] lg:text-[17px] leading-[1.7] text-white/85">
-            Most ministries today consume AI the way they consume electricity:
-            from a vendor, over a wire, on a meter, with terms of service they
-            did not write. That works for a search box. It does not work for a
-            treasury, a tax authority, or a regulator that must answer to its
-            citizens for every decision a system makes on their behalf.
+            The first wave of public-sector AI was procured. Ministries signed
+            license agreements with vendors and waited for capability to arrive
+            through an API. Most of it did not arrive — because the hard part
+            was never the model. The hard part was deciding which workflow to
+            change, who owns the new one, how it interacts with the regulation
+            that governs it, and how to keep the institution running while the
+            change is made.
           </p>
           <p className="text-[16px] lg:text-[17px] leading-[1.7] text-muted">
-            Fieldspan Embedded inverts the relationship. The model runs in your
-            data center. The agents act under your policy. The audit log belongs
-            to you. The capability does not disappear when a vendor changes its
-            pricing, its country of incorporation, or its mind. Sovereignty is
-            not a feature we add — it is the architecture.
+            That work is done by people, inside the building, alongside the
+            people who already do the work. Fieldspan Embedded sends those
+            people. We are not a vendor calling from outside the perimeter.
+            We are a small team that sits at a desk in your ministry until the
+            capability is built, transferred, and running — and then we go
+            home.
           </p>
         </div>
 
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
             {
-              t: "Procured AI",
-              s: "API key. Vendor cloud. Terms of service. Data leaves the building. Capability is rented.",
+              t: "Buying a product",
+              s: "A license, a portal, a vendor relationship. The capability lives at the vendor; you rent access. Change ends when the contract ends.",
               tone: "muted",
             },
             {
-              t: "Embedded AI",
-              s: "Deployed inside your perimeter. Weights you can inspect. Policy you author. Capability is owned.",
+              t: "Embedding a team",
+              s: "Senior people on the ground. The capability is built inside the institution and stays there. Change persists because your people now own it.",
               tone: "accent",
             },
             {
               t: "What changes for the CIO",
-              s: "You stop buying outputs and start governing a system. The procurement question becomes an operating question.",
+              s: "You stop managing a vendor and start staffing a project. The relationship is a contract for outcomes, not a subscription for software.",
               tone: "muted",
             },
           ].map((c) => (

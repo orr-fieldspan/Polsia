@@ -10,12 +10,12 @@ export function Footer() {
             Start the conversation
           </div>
           <h2 className="font-serif text-[36px] sm:text-[52px] lg:text-[72px] leading-[1.02] tracking-tightest gradient-text">
-            Bring the capability inside.
+            Bring a senior team inside.
             <br />
-            <span className="accent-gradient italic font-light">Keep the sovereignty.</span>
+            <span className="accent-gradient italic font-light">Keep what they build.</span>
           </h2>
           <p className="mt-8 text-[16px] text-muted max-w-2xl mx-auto leading-relaxed">
-            Briefings are scheduled directly with the founding team. Written
+            Briefings are scheduled directly with the founders. Written
             responses to security and procurement questionnaires within five
             business days.
           </p>
@@ -31,10 +31,10 @@ export function Footer() {
               </svg>
             </a>
             <a
-              href="#platform"
+              href="#engagement"
               className="inline-flex items-center gap-2 rounded-full border hairline px-6 h-12 text-[14.5px] font-medium text-white/90 hover:bg-white/[0.04] transition-colors"
             >
-              Re-read the platform
+              Re-read how we engage
             </a>
           </div>
         </div>
@@ -53,7 +53,7 @@ export function Footer() {
           </div>
 
           <div className="flex flex-wrap items-center gap-x-8 gap-y-3 text-[12.5px] text-muted">
-            <a href="#platform" className="hover:text-white">Platform</a>
+            <a href="#engagement" className="hover:text-white">Engagement</a>
             <a href="#approach" className="hover:text-white">Approach</a>
             <a href="#sovereignty" className="hover:text-white">Sovereignty</a>
             <a href="#founders" className="hover:text-white">Founders</a>

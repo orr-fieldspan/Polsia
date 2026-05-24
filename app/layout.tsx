@@ -19,13 +19,13 @@ const newsreader = Newsreader({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://embedded.fieldspan.ai"),
-  title: "Fieldspan Embedded — Sovereign AI for the institutions that run a nation",
+  title: "Fieldspan Embedded — Senior AI teams, embedded inside public institutions",
   description:
-    "Fieldspan Embedded deploys AI inside ministries, treasuries, and central agencies — on your infrastructure, under your control, accountable to your auditors.",
+    "Fieldspan Embedded is a small services firm. We send senior operators and engineers to work inside ministries and treasuries, build the AI capability they need, and leave it owned by their teams.",
   openGraph: {
     title: "Fieldspan Embedded",
     description:
-      "Sovereign AI for the institutions that run a nation. Deployed inside your perimeter. Governed by your policy.",
+      "Senior AI teams, embedded inside the institutions that run a nation.",
     url: "https://embedded.fieldspan.ai",
     siteName: "Fieldspan Embedded",
     type: "website",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Fieldspan Embedded",
-    description: "Sovereign AI for the institutions that run a nation.",
+    description: "Senior AI teams, embedded inside the institutions that run a nation.",
   },
 };
 

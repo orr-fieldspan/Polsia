@@ -6,16 +6,18 @@ export function Sovereignty() {
       <div className="relative mx-auto max-w-page px-6 lg:px-10 py-24 lg:py-32 grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-5">
           <div className="text-[12.5px] uppercase tracking-[0.22em] text-muted mb-4">
-            Sovereignty by architecture
+            How the engagement protects sovereignty
           </div>
           <h2 className="font-serif text-[34px] lg:text-[48px] leading-[1.05] tracking-tightest gradient-text">
-            Designed so the answer to <span className="italic accent-gradient">&ldquo;where is our data?&rdquo;</span> is always: here.
+            We work inside your perimeter. Everything we build stays <span className="italic accent-gradient">with you.</span>
           </h2>
           <p className="mt-6 text-[15px] text-muted leading-relaxed">
-            Fieldspan Embedded does not depend on a foreign-cloud API to function.
-            It runs entirely on infrastructure you control, with weights you can
-            inspect, in a network topology you can certify. Nothing about the
-            deployment requires trust in us once it is installed.
+            The Fieldspan team operates from inside the customer&rsquo;s
+            environment, on customer-issued hardware, under customer security
+            policy. Nothing the team builds depends on a Fieldspan-hosted
+            service to function. At hand-off, the customer holds the source,
+            the weights, the runbooks, and the operating practice. The
+            engagement can end without the capability ending.
           </p>
         </div>
 
@@ -26,27 +28,27 @@ export function Sovereignty() {
                 <span className="h-2.5 w-2.5 rounded-full bg-white/15" />
                 <span className="h-2.5 w-2.5 rounded-full bg-white/15" />
                 <span className="h-2.5 w-2.5 rounded-full bg-accent/70" />
-                <span className="ml-3 font-mono text-[11.5px] text-muted">deployment.topology</span>
+                <span className="ml-3 font-mono text-[11.5px] text-muted">engagement.terms</span>
               </div>
 
               <div className="p-6 lg:p-8 font-mono text-[12.5px] leading-[1.9]">
-                <Row label="environment" value="customer-controlled" />
-                <Row label="network" value="air-gapped · sovereign cloud · on-prem" />
+                <Row label="team location" value="on-site, inside customer offices" />
+                <Row label="devices" value="customer-issued, on customer network" />
                 <Row label="identity" value="customer IdP (OIDC / SAML)" />
-                <Row label="models" value="open-weight, locally hosted" />
-                <Row label="vector store" value="local; encryption at rest" />
-                <Row label="logs · audit" value="written to customer SIEM" />
-                <Row label="outbound calls" value={<span className="text-accent">none required</span>} />
-                <Row label="vendor access" value={<span className="text-accent">none after install</span>} />
+                <Row label="models" value="open-weight, hosted by customer" />
+                <Row label="source code" value={<span className="text-accent">written into customer repo</span>} />
+                <Row label="model weights" value={<span className="text-accent">remain with customer</span>} />
+                <Row label="data egress" value={<span className="text-accent">none</span>} />
+                <Row label="post hand-off" value={<span className="text-accent">no Fieldspan access required</span>} />
               </div>
             </div>
           </div>
 
           <div className="mt-6 grid grid-cols-3 gap-4">
             {[
-              { k: "Hosting", v: "Your data center" },
-              { k: "Updates", v: "Signed bundles, your approval" },
-              { k: "Exit", v: "Take weights and code with you" },
+              { k: "IP", v: "Customer owns everything built" },
+              { k: "Hand-off", v: "Code, weights, runbooks transferred" },
+              { k: "Exit", v: "Engagement ends, capability remains" },
             ].map((b) => (
               <div key={b.k} className="rounded-xl border hairline bg-white/[0.02] p-4">
                 <div className="text-[11px] uppercase tracking-[0.2em] text-muted mb-1.5">
