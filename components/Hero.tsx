@@ -24,8 +24,7 @@ export function Hero() {
           built inside the institution. That gap is where most public-sector
           AI quietly fails. Fieldspan Embedded sends a small senior team
           inside the ministry to close it — building the capability with
-          your people, and leaving them operating at a higher level than
-          they started.
+          your people, cycle after cycle, while they level up alongside us.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center gap-3">
@@ -48,9 +47,9 @@ export function Hero() {
 
         <div className="mt-16 flex flex-wrap items-end gap-x-12 gap-y-6">
           {[
-            { k: "3–5", v: "senior people per engagement" },
-            { k: "12 wk", v: "typical length, kickoff to live" },
-            { k: "100%", v: "code and IP owned by the customer" },
+            { k: "3–5", v: "senior people per squad" },
+            { k: "Monthly", v: "ship cycle, paid against output" },
+            { k: "In-repo", v: "code, weights, and runbooks from day one" },
           ].map((s) => (
             <div key={s.v}>
               <div className="font-serif text-4xl tracking-tight">{s.k}</div>
@@ -79,7 +78,7 @@ function Blobs() {
         <Sticker label="public sector" tone="coral" rotate={-6} />
       </div>
       <div className="absolute bottom-16 left-8 hidden md:block wobble" style={{ animationDelay: "-2s" }}>
-        <Sticker label="ships in 12 weeks" tone="violet" rotate={4} />
+        <Sticker label="paid for what ships" tone="violet" rotate={4} />
       </div>
     </>
   );

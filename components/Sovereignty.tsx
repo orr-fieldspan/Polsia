@@ -1,10 +1,10 @@
 const terms: { label: string; value: React.ReactNode }[] = [
   { label: "Where we work", value: "Inside your offices, on your network" },
   { label: "Devices", value: "Customer-issued, on customer policy" },
-  { label: "Source code", value: <span className="text-coral">written into your repo</span> },
-  { label: "Model weights", value: <span className="text-coral">stay with you</span> },
+  { label: "Source code", value: <span className="text-coral">written into your repo, from day one</span> },
+  { label: "Model weights", value: <span className="text-coral">hosted by you</span> },
   { label: "Data egress", value: <span className="text-coral">none</span> },
-  { label: "After hand-off", value: <span className="text-coral">no Fieldspan access required</span> },
+  { label: "Continuation", value: <span className="text-coral">your choice, every cycle</span> },
 ];
 
 export function Sovereignty() {

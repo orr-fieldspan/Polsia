@@ -5,15 +5,15 @@ const faqs = [
   },
   {
     q: "How is it priced?",
-    a: "Pricing is shared in the briefing once we have scoped the engagement together. What we never charge for: tokens, per-seat licenses, or platform subscriptions. You pay for a team and an outcome.",
+    a: "Two shapes. A transformation engagement is scoped jointly and sized in time and cost to the workflow. An engineering squad is a monthly subscription priced against output — you pay for features shipped into production, not for hours on a timesheet. No tokens, no per-seat licenses, no platform subscriptions.",
   },
   {
     q: "Where do our people and our data sit?",
     a: "Our people sit in your offices, on your devices, under your policy. Your data never leaves your perimeter, and it is not used to train anything for anyone else.",
   },
   {
-    q: "What happens after the engagement ends?",
-    a: "The capability keeps running without us — and so does your team. They hold the code, weights, and runbooks, and they have spent the engagement learning to operate, extend, and audit the system on their own. You end up with both a working capability and people who are more capable than they were.",
+    q: "When does the engagement end?",
+    a: "When it stops compounding for you. There is no fixed endpoint; most engagements roll from one workflow into the next, and each cycle ships faster than the last because your team is more capable and the operating practice is now resident inside the institution. If a cycle stops delivering, you stop the subscription — the code, weights, and runbooks are already in your repo from day one.",
   },
 ];
 
