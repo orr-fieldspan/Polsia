@@ -4,6 +4,7 @@ const links = [
   { href: "#platform", label: "Platform" },
   { href: "#approach", label: "Approach" },
   { href: "#sovereignty", label: "Sovereignty" },
+  { href: "#founders", label: "Founders" },
   { href: "#faq", label: "FAQ" },
 ];
 

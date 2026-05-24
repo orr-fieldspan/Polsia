@@ -56,6 +56,7 @@ export function Footer() {
             <a href="#platform" className="hover:text-white">Platform</a>
             <a href="#approach" className="hover:text-white">Approach</a>
             <a href="#sovereignty" className="hover:text-white">Sovereignty</a>
+            <a href="#founders" className="hover:text-white">Founders</a>
             <a href="#faq" className="hover:text-white">FAQ</a>
             <a href="mailto:orr@fieldspan.ai" className="hover:text-white">Contact</a>
           </div>

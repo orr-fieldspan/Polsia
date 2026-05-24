@@ -5,6 +5,7 @@ import { Manifesto } from "@/components/Manifesto";
 import { Proof } from "@/components/Proof";
 import { Capabilities } from "@/components/Capabilities";
 import { Sovereignty } from "@/components/Sovereignty";
+import { Founders } from "@/components/Founders";
 import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
 
@@ -18,6 +19,7 @@ export default function Page() {
       <Capabilities />
       <Proof />
       <Sovereignty />
+      <Founders />
       <FAQ />
       <Footer />
     </main>
