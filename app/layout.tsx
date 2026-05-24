@@ -19,28 +19,29 @@ const newsreader = Newsreader({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://embedded.fieldspan.ai"),
-  title: "Fieldspan Embedded — Sovereign AI for the institutions that run a nation",
+  title: "Fieldspan Embedded — Modernize the state.",
   description:
-    "Fieldspan Embedded deploys AI inside ministries, treasuries, and central agencies — on your infrastructure, under your control, accountable to your auditors.",
+    "Your transformation partner from inside the ministry. We bring senior AI know-how into your perimeter — and ship at operating speed.",
   openGraph: {
-    title: "Fieldspan Embedded",
+    title: "Fieldspan Embedded — Modernize the state.",
     description:
-      "Sovereign AI for the institutions that run a nation. Deployed inside your perimeter. Governed by your policy.",
+      "Your transformation partner from inside the ministry. We bring senior AI know-how into your perimeter — and ship at operating speed.",
     url: "https://embedded.fieldspan.ai",
     siteName: "Fieldspan Embedded",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fieldspan Embedded",
-    description: "Sovereign AI for the institutions that run a nation.",
+    title: "Fieldspan Embedded — Modernize the state.",
+    description:
+      "Your transformation partner from inside the ministry. We bring senior AI know-how into your perimeter — and ship at operating speed.",
   },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${newsreader.variable}`}>
-      <body className="grain min-h-screen bg-ink text-white font-sans">
+      <body className="min-h-screen bg-paper text-ink font-sans">
         {children}
       </body>
     </html>
