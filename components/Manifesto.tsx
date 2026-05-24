@@ -20,6 +20,21 @@ export function Manifesto() {
           the model. The hard part is the work done inside the building, with
           the people who already run the workflow. That is the work we do.
         </p>
+
+        <p className="mt-6 max-w-2xl text-[13.5px] leading-relaxed text-ink/70">
+          The model is well-tested in the private sector — see{" "}
+          <a
+            href="https://www.tenex.co/"
+            target="_blank"
+            rel="noreferrer"
+            className="font-medium underline decoration-coral/60 decoration-2 underline-offset-[3px] hover:text-coral transition-colors"
+          >
+            Tenex Labs
+          </a>
+          , the exemplary framework for embedded AI transformation teams.
+          Fieldspan Embedded brings the same shape to the institutions that
+          run a country.
+        </p>
       </div>
     </section>
   );

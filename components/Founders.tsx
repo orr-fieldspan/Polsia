@@ -13,8 +13,8 @@ const founders = [
   {
     name: "Orr Barkat",
     role: "Co-founder & CTO",
-    bio: "Built growth and user-acquisition infrastructure at Google — systems that had to be correct at planetary scale and accountable to internal audit.",
-    pedigree: "Ex-Google",
+    bio: "Led AI transformation strategy, programs, and engineering at Google. Spent the last two years consulting on AI transformation for enterprises and public-sector clients.",
+    pedigree: "Ex-Google · AI transformation",
     aside: null,
     linkedin: "https://www.linkedin.com/in/orr-barkat-0a7928a2",
     initials: "OB",
