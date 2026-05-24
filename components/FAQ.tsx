@@ -5,7 +5,7 @@ const faqs = [
   },
   {
     q: "How is it priced?",
-    a: "Fixed fee per engagement, scoped to one workflow and one outcome. No tokens, no per-seat, no surprise foreign-currency invoices mid-year.",
+    a: "Pricing is shared in the briefing once we have scoped the engagement together. What we never charge for: tokens, per-seat licenses, or platform subscriptions. You pay for a team and an outcome.",
   },
   {
     q: "Where do our people and our data sit?",

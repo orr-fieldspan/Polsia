@@ -15,14 +15,16 @@ export function Hero() {
         </div>
 
         <h1 className="font-serif tracking-tightest text-[44px] sm:text-[60px] lg:text-[80px] leading-[0.98] max-w-4xl">
-          We <span className="squiggle">embed</span> senior AI teams inside the institutions that{" "}
-          <span className="italic coral-text">run a nation.</span>
+          Most public-sector AI is procured.{" "}
+          <span className="italic coral-text squiggle">Most of it never lands.</span>
         </h1>
 
         <p className="mt-8 max-w-xl text-[16.5px] leading-relaxed text-muted">
-          A small team of operators and engineers sits inside your ministry for
-          a defined engagement, builds the AI capability you need, and leaves
-          it owned by your people.
+          The transformation is signed for in procurement, but it has to be
+          built inside the institution. That gap is where most public-sector
+          AI quietly fails. Fieldspan Embedded sends a small senior team
+          inside the ministry to close it — and leaves the capability owned
+          by your people.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center gap-3">
