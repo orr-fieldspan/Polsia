@@ -8,13 +8,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#06070A",
-        surface: "#0B0D12",
-        elevated: "#11141B",
-        border: "#1E222C",
-        muted: "#7A8294",
-        accent: "#5AE6FF",
-        accentDeep: "#2BB6D4",
+        paper: "#FAF6EC",
+        card: "#FFFFFF",
+        ink: "#13131A",
+        muted: "#6E6A5E",
+        soft: "#9A9486",
+        coral: "#FF6B4A",
+        violet: "#6E5BFF",
+        honey: "#FFC857",
+        mint: "#7DD3C0",
       },
       fontFamily: {
         sans: ["var(--font-sans)", "ui-sans-serif", "system-ui", "sans-serif"],
@@ -22,7 +24,7 @@ const config: Config = {
         mono: ["ui-monospace", "SFMono-Regular", "Menlo", "monospace"],
       },
       maxWidth: {
-        page: "1240px",
+        page: "1180px",
       },
       letterSpacing: {
         tightest: "-0.04em",

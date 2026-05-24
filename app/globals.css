@@ -9,88 +9,96 @@
 
 html,
 body {
-  background: #06070A;
-  color: #F5F7FA;
+  background: #FAF6EC;
+  color: #13131A;
   font-feature-settings: "ss01", "cv11";
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
 ::selection {
-  background: #5AE6FF;
-  color: #06070A;
-}
-
-.grain::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px);
-  background-size: 3px 3px;
-  mix-blend-mode: overlay;
-  z-index: 1;
+  background: #FFC857;
+  color: #13131A;
 }
 
 .hairline {
-  border-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(19, 19, 26, 0.10);
 }
 
 .gradient-text {
-  background: linear-gradient(180deg, #FFFFFF 0%, #8A93A6 120%);
+  background: linear-gradient(180deg, #13131A 0%, #4A4A52 110%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
-.accent-gradient {
-  background: linear-gradient(135deg, #5AE6FF 0%, #2BB6D4 50%, #6E7BFF 100%);
+.coral-text {
+  background: linear-gradient(120deg, #FF6B4A 0%, #FF8E5E 60%, #FFC857 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
-.glow {
-  box-shadow: 0 0 0 1px rgba(90, 230, 255, 0.25), 0 20px 60px -20px rgba(90, 230, 255, 0.35);
+.violet-text {
+  background: linear-gradient(120deg, #6E5BFF 0%, #FF6B4A 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
-.dot-grid {
-  background-image:
-    radial-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px);
-  background-size: 22px 22px;
+.squiggle {
+  position: relative;
+  display: inline-block;
+}
+.squiggle::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  bottom: -0.18em;
+  height: 0.32em;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 8' preserveAspectRatio='none'><path d='M0 5 Q 10 0 20 5 T 40 5 T 60 5 T 80 5' fill='none' stroke='%23FF6B4A' stroke-width='2.4' stroke-linecap='round'/></svg>");
+  background-repeat: repeat-x;
+  background-size: 80px 8px;
+  pointer-events: none;
 }
 
 @keyframes orb {
-  0%, 100% { transform: translate3d(0, 0, 0) scale(1); opacity: 0.55; }
-  50% { transform: translate3d(0, -12px, 0) scale(1.04); opacity: 0.75; }
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); opacity: 0.85; }
+  50% { transform: translate3d(0, -14px, 0) scale(1.05); opacity: 1; }
 }
+.orb { animation: orb 9s ease-in-out infinite; }
 
-.orb {
-  animation: orb 9s ease-in-out infinite;
+@keyframes wobble {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
 }
+.wobble { animation: wobble 6s ease-in-out infinite; }
 
 @keyframes pulseRing {
-  0% { transform: scale(0.95); opacity: 0.8; }
-  100% { transform: scale(1.6); opacity: 0; }
+  0% { transform: scale(0.95); opacity: 0.7; }
+  100% { transform: scale(1.7); opacity: 0; }
 }
-
-.pulse-ring {
-  animation: pulseRing 2.6s cubic-bezier(0.16, 1, 0.3, 1) infinite;
-}
+.pulse-ring { animation: pulseRing 2.6s cubic-bezier(0.16, 1, 0.3, 1) infinite; }
 
 @keyframes marquee {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
 }
+.marquee { animation: marquee 38s linear infinite; }
 
-.marquee {
-  animation: marquee 38s linear infinite;
+.dot-grid {
+  background-image: radial-gradient(rgba(19, 19, 26, 0.08) 1px, transparent 1px);
+  background-size: 22px 22px;
 }
 
-details > summary {
-  list-style: none;
-  cursor: pointer;
+.sticker {
+  box-shadow:
+    0 1px 0 rgba(19, 19, 26, 0.06),
+    0 8px 24px -10px rgba(19, 19, 26, 0.12);
 }
+
+details > summary { list-style: none; cursor: pointer; }
 details > summary::-webkit-details-marker { display: none; }
 details[open] .chev { transform: rotate(45deg); }
 .chev { transition: transform 0.25s ease; }

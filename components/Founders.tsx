@@ -2,95 +2,95 @@ const founders = [
   {
     name: "Alon Barel",
     role: "Co-founder & CEO",
-    bio: "Built and ran the global installer network at SolarEdge — coordinating partners and operations across dozens of countries through every stage of the company's growth. Spent a decade learning, at scale, what it takes to make a complex operational system actually work outside a slide.",
-    pedigree: "Ex-SolarEdge · global operations",
+    bio: "Built and ran the global installer network at SolarEdge across dozens of countries — a decade of making complex operational systems actually work outside the slide.",
+    pedigree: "Ex-SolarEdge",
+    aside: "Volunteers with the עיר-מדינה (Ir-Medina) civic initiative.",
     linkedin: "https://www.linkedin.com/in/alonbarel",
     initials: "AB",
+    tone: "bg-coral/20",
+    ring: "ring-coral/40",
   },
   {
     name: "Orr Barkat",
     role: "Co-founder & CTO",
-    bio: "Built growth and user-acquisition infrastructure at Google, where the systems shipped had to be correct at planetary scale and accountable to internal audit. Brings the discipline of large-scale infrastructure engineering to applied AI inside institutions that cannot tolerate vague answers.",
-    pedigree: "Ex-Google · applied AI & growth infra",
+    bio: "Built growth and user-acquisition infrastructure at Google — systems that had to be correct at planetary scale and accountable to internal audit.",
+    pedigree: "Ex-Google",
+    aside: null,
     linkedin: "https://www.linkedin.com/in/orr-barkat-0a7928a2",
     initials: "OB",
+    tone: "bg-violet/20",
+    ring: "ring-violet/40",
   },
 ];
 
 export function Founders() {
   return (
-    <section id="founders" className="relative border-b hairline overflow-hidden">
-      <div className="absolute inset-0 dot-grid opacity-30" />
-      <div
-        className="absolute -top-32 -left-32 h-[420px] w-[420px] rounded-full blur-3xl orb"
-        style={{ background: "rgba(110,123,255,0.18)" }}
-      />
-
-      <div className="relative mx-auto max-w-page px-6 lg:px-10 py-24 lg:py-32">
-        <div className="flex items-end justify-between flex-wrap gap-6 mb-14">
-          <div className="max-w-2xl">
-            <div className="text-[12.5px] uppercase tracking-[0.22em] text-muted mb-4">
-              Who is behind it
+    <section id="founders" className="relative border-b hairline">
+      <div className="mx-auto max-w-page px-6 lg:px-10 py-20 lg:py-24">
+        <div className="flex items-end justify-between flex-wrap gap-6 mb-12">
+          <div>
+            <div className="text-[12px] uppercase tracking-[0.2em] text-muted mb-3">
+              Who is on the ground
             </div>
-            <h2 className="font-serif text-[34px] lg:text-[48px] leading-[1.05] tracking-tightest gradient-text">
-              Operators who have run systems that <span className="italic accent-gradient">had to work.</span>
+            <h2 className="font-serif text-[32px] lg:text-[42px] leading-[1.05] tracking-tightest max-w-xl">
+              Founder-led. Every engagement.
             </h2>
           </div>
-          <p className="max-w-sm text-[14.5px] text-muted leading-relaxed">
-            Fieldspan is founder-led. Every engagement is scoped, signed, and
-            delivered by the people on this page.
+          <p className="max-w-xs text-[14px] text-muted leading-relaxed">
+            The people you meet in the briefing are the people on the ground in
+            the engagement.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/5 border hairline rounded-2xl overflow-hidden">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {founders.map((f) => (
-            <article key={f.name} className="bg-ink p-8 lg:p-10 flex flex-col">
-              <div className="flex items-center gap-5 mb-7">
-                <div className="relative">
-                  <div className="absolute inset-0 rounded-full bg-accent/20 blur-xl" />
-                  <div className="relative h-14 w-14 rounded-full border hairline bg-elevated flex items-center justify-center font-serif text-[18px] text-white/90">
-                    {f.initials}
-                  </div>
+            <article
+              key={f.name}
+              className={`rounded-3xl ${f.tone} border hairline p-7 lg:p-8 sticker flex flex-col`}
+            >
+              <div className="flex items-center gap-4 mb-6">
+                <div
+                  className={`h-14 w-14 rounded-full bg-card flex items-center justify-center font-serif text-[18px] ring-2 ${f.ring}`}
+                >
+                  {f.initials}
                 </div>
                 <div>
                   <div className="font-serif text-[22px] leading-tight tracking-tight">
                     {f.name}
                   </div>
-                  <div className="text-[12.5px] uppercase tracking-[0.18em] text-muted mt-1">
+                  <div className="text-[12px] uppercase tracking-[0.18em] text-muted mt-1">
                     {f.role}
                   </div>
                 </div>
               </div>
 
-              <p className="text-[14.5px] text-white/80 leading-relaxed mb-7 flex-1">
-                {f.bio}
-              </p>
+              <p className="text-[14.5px] text-ink/80 leading-relaxed">{f.bio}</p>
 
-              <div className="flex items-center justify-between pt-5 border-t hairline">
-                <span className="font-mono text-[11.5px] uppercase tracking-[0.18em] text-accent/80">
+              {f.aside && (
+                <p className="mt-4 text-[13px] text-ink/70 leading-relaxed">
+                  <span className="font-medium">Also:</span> {f.aside}
+                </p>
+              )}
+
+              <div className="mt-6 pt-5 border-t hairline flex items-center justify-between">
+                <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted">
                   {f.pedigree}
                 </span>
                 <a
                   href={f.linkedin}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-1.5 text-[12.5px] text-muted hover:text-accent transition-colors"
+                  className="inline-flex items-center gap-1.5 text-[12.5px] text-muted hover:text-coral transition-colors"
                 >
                   LinkedIn
-                  <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
-                    <path d="M3 9l6-6M4.5 3H9v4.5" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+                  <svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden>
+                    <path d="M3 9l6-6M4.5 3H9v4.5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </a>
               </div>
             </article>
           ))}
         </div>
-
-        <p className="mt-10 max-w-3xl text-[14px] text-muted leading-relaxed">
-          The founding team operates from Tel Aviv. Briefings with public-sector
-          counterparts are conducted in English or Hebrew, in person or over a
-          secure channel of the customer&rsquo;s choosing.
-        </p>
       </div>
     </section>
   );

@@ -21,11 +21,10 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://embedded.fieldspan.ai"),
   title: "Fieldspan Embedded — Senior AI teams, embedded inside public institutions",
   description:
-    "Fieldspan Embedded is a small services firm. We send senior operators and engineers to work inside ministries and treasuries, build the AI capability they need, and leave it owned by their teams.",
+    "A small services firm. We send senior operators and engineers to work inside ministries, build the AI capability they need, and leave it owned by their teams.",
   openGraph: {
     title: "Fieldspan Embedded",
-    description:
-      "Senior AI teams, embedded inside the institutions that run a nation.",
+    description: "Senior AI teams, embedded inside the institutions that run a nation.",
     url: "https://embedded.fieldspan.ai",
     siteName: "Fieldspan Embedded",
     type: "website",
@@ -40,7 +39,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${newsreader.variable}`}>
-      <body className="grain min-h-screen bg-ink text-white font-sans">
+      <body className="min-h-screen bg-paper text-ink font-sans">
         {children}
       </body>
     </html>
